@@ -10,6 +10,28 @@
         <section class="mb-16" id="about">
           <About />
         </section>
+        <div class="relative w-full">
+            <div class="flex justify-start w-full absolute md:-top-30 -top-25 ">
+                <img src="../assets/Paper_plane.png" class="md:w-52 w-42 rotate-70 ms-40" alt="">
+            </div>
+        </div>
+        <div class="relative">
+            <div
+                class="absolute bg-sky-900 rounded-full w-6 h-6 opacity-90 
+                    -top-20 md:left-48 -left-2"
+            >
+            </div>
+            <div
+                class="absolute bg-sky-900 rounded-full w-4 h-4 opacity-90 
+                    -top-10 md:left-62 left-4"
+            >
+            </div>
+            <div
+                class="absolute bg-sky-900 rounded-full w-10 h-10 
+                    -top-40 md:left-54 right-1"
+            >
+            </div>
+        </div>
   
         <!-- Kompetenser/Skills-komponenten -->
         <section class="mb-16" id="kompetenser">
