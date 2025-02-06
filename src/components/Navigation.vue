@@ -1,5 +1,7 @@
 <template>
-    <nav  class=" p-2  " :class="{ 'bg-gray-100': isOpen, '': !isOpen }">
+    <nav  class=" p-2 sticky top-0 transition-colors duration-300 z-90  " :class="{'bg-gray-200': isOpen, '': !isOpen}, scrolled 
+      ? 'bg-white border-b border-gray-200 shadow-sm transition-colors duration-200' 
+      : 'bg-transparent border-none transition-colors duration-300'">
       <ul class="hidden md:flex justify-between space-x-6 px-6">
         <a href=""> <img src="../assets/logo.png" class="w-12 " alt=""></a>
         <div class="flex space-x-10">
@@ -153,13 +155,26 @@
     data() {
         return {
         isOpen: false,
+        scrolled: false,
         };
     },
-    methods: {
-        toggleMenu() {
-        this.isOpen = !this.isOpen;
-        },
+    mounted() {
+    // Listen to scroll events
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeUnmount() {
+    // Clean up event listener to avoid memory leaks
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    toggleMenu() {
+      this.isOpen = !this.isOpen
     },
+    handleScroll() {
+      // If scrolled down at all, set scrolled = true
+      this.scrolled = window.scrollY > 0
+    },
+  },
   }
   </script>
   

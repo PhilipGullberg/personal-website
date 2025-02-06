@@ -24,7 +24,7 @@
           <div class="max-w-2xl text-gray-700">
             <p class="mb-4 text-lg leading-relaxed">
               I’m a <span class="font-semibold">web developer</span> and 
-              <span class="font-semibold">teacher</span> based in Sweden, 
+              <span class="font-semibold">educator</span> based in Sweden, 
               passionate about bringing both the technical and educational aspects 
               of code to life. I’ve honed my skills in <span class="font-semibold">high-level programming</span> and problem-solving
               with an education from <span class="text-sky-700">KTH</span> where i have a degree as a <span class="underline">Civil engineer in computer science.</span>
