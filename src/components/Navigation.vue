@@ -1,7 +1,7 @@
 <template>
     <nav  class=" p-2 sticky top-0 transition-colors duration-300 z-90  " :class="{'bg-gray-200': isOpen, '': !isOpen}, scrolled 
       ? 'bg-white border-b border-gray-200 shadow-sm transition-colors duration-200' 
-      : 'bg-transparent border-none transition-colors duration-300'">
+      : 'bg-transparent border-none transition-colors duration-200'">
       <ul class="hidden md:flex justify-between align-items space-x-6 px-6">
         <a href=""> <img src="../assets/icon_fin.png" class="w-12 " alt=""></a>
         <div class="flex space-x-10">
