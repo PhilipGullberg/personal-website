@@ -111,7 +111,7 @@
             description:
               'A web application for educators to help save hours each week by generating high-quality slides, assignments and content and easily connect it to google classroom. Built with openAI api that helps to generate the content. Also integrating with google API to connect to google classroom and create slides and documents. Site is also setup with google SSO, for simple login. ',
             /* videoUrl: 'https://www.youtube.com/embed/<VIDEO_ID>', */
-            imageUrl: '../src/assets/pedagoAI.png',
+            imageUrl: 'src/assets/pedagoAI.png',
             liveLink: 'https://pedagoai.se',
             githubLink: 'https://github.com/PhilipGullberg',
             techStack: [
@@ -125,7 +125,7 @@
             title: 'Personal Website for Janne Andersson',
             description:
               'A personal website for former Swedish football head coach who currently gives lectures and talks about leadership and team building.',
-            imageUrl: '../src/assets/janne-website.png',
+            imageUrl: 'src/assets/janne-website.png',
             liveLink: 'https://janneandersson.com',
             // caseStudyLink: '#',    // optional
             githubLink: 'https://github.com/PhilipGullberg',
@@ -140,7 +140,7 @@
             title: 'Smart Food Planner',
             description:
               'A website to quickly get a meal plan based on your preferences and dietary restrictions. AI helps you create a shopping list and plan your meals in minutes. The website is built with Vue.js and Tailwind CSS with at backend of Django. I use fine-tuning and searching of the OpenAI model to generate the meal plans. ',
-            imageUrl: '../src/assets/SmartMatPlanerare_landing.png',
+            imageUrl: 'src/assets/SmartMatPlanerare_landing.png',
             liveLink: 'https://smart-mat.vercel.app/',
             githubLink: 'https://github.com/PhilipGullberg/SmartMat',
             techStack: [
@@ -154,7 +154,7 @@
             title: 'Personal trainer',
             description:
               'A website for a personal trainer in Sweden. Focus on the design and the user experience. ',
-            imageUrl: '../src/assets/Ulrika_landing.png',
+            imageUrl: 'src/assets/Ulrika_landing.png',
             liveLink: 'https://ulrikashemsida.vercel.app/',
             githubLink: 'https://github.com/PhilipGullberg/Ulrikashemsida',
             techStack: [
@@ -167,7 +167,7 @@
             title: 'ProggaMera, learn to code',
             description:
               'A website where teachers can access courses and share them with students. Focus on easy to use and having full insight of students work. Tracking pages read and time spent on each page. What excercies the students have completed and what areas the class are having trouble with.',
-            imageUrl: '../src/assets/Proggamera_Landing_page.png',
+            imageUrl: 'src/assets/Proggamera_Landing_page.png',
             githubLink: 'https://github.com/PhilipGullberg/Ulrikashemsida',
             techStack: [
               { name: 'Django', icon: 'fa-brands fa-python' },

@@ -28,7 +28,7 @@
             </div>
             <div
                 class="absolute bg-sky-900 rounded-full w-10 h-10 
-                    -top-40 md:left-54 right-1"
+                    -top-40 md:left-54 hidden md:block"
             >
             </div>
         </div>
