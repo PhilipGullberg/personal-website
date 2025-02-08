@@ -1,7 +1,9 @@
 <!-- src/App.vue -->
 <template>
   <div id="app" class="flex flex-col min-h-screen">
-    <OnePager />
+    
+
+    <router-view></router-view>
   </div>
 </template>
 

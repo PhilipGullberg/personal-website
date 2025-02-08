@@ -1,18 +1,18 @@
 <template>
-    <nav  class=" p-2 sticky top-0 transition-colors duration-300 z-90  " :class="{'bg-gray-200': isOpen, '': !isOpen}, scrolled 
+    <nav  class=" p-2 sticky top-0 transition-colors duration-300 z-90  " :class=" scrolled 
       ? 'bg-white border-b border-gray-200 shadow-sm transition-colors duration-200' 
       : 'bg-transparent border-none transition-colors duration-200'">
-      <ul class="hidden md:flex justify-between align-items space-x-6 px-6">
-        <a href=""> <img src="../assets/icon_fin.png" class="w-12 " alt=""></a>
+      <ul class="hidden md:flex justify-between items-center space-x-6 px-6">
+        <img src="../assets/icon_fin.png" class="w-16 " alt="">
         <div class="flex space-x-10">
         <li>
           <a
-            href="#about"
+            href="/#about"
             class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
              hover:after:w-full after:transition-all after:duration-300 
-             mr-4"
+             mr-4 "
             active-class="active-link"
           >
             About <span class="text-sky-900 text-3xl">.</span>
@@ -20,7 +20,7 @@
         </li>
         <li>
           <a
-            href="#kompetenser"
+            href="/#kompetenser"
             class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
@@ -33,7 +33,7 @@
         </li>
         <li>
           <a
-            href="#projekt"
+            href="/#projekt"
             class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
@@ -45,8 +45,8 @@
           </a>
         </li>
         <li>
-            <a
-                href="#kontakt"
+            <router-link
+                to="/contact"
                 class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
@@ -55,12 +55,12 @@
                 active-class="active-link"
             >
                 Contact me<span class="text-sky-900 text-3xl">.</span>
-            </a>
+            </router-link>
         </li>
     </div>
       </ul>
-      <div class="flex justify-between">
-        <a href=""> <img src="../assets/icon_fin.png" class="w-10 md:hidden" alt=""></a>
+      <div class="flex justify-between items-center px-4">
+        <a href=""> <img src="../assets/icon_fin.png" class="w-14 md:hidden" alt=""></a>
       <div class="flex items-center md:hidden">
           <button
             type="button"
@@ -70,7 +70,7 @@
             aria-label="Toggle menu"
           >
             <svg
-              class="h-6 w-6"
+              class="h-8 w-8"
               stroke="currentColor"
               fill="none"
               viewBox="0 0 24 24"
@@ -87,13 +87,13 @@
         <!-- Mobile menu -->
         
         </div>
-        <div v-if="isOpen" class="md:hidden mt-4 ">
+        <div v-if="isOpen" class="md:hidden mt-4  ">
             
-        <ul class="space-y-4">
+        <ul class="space-y-4 ps-4 pb-2">
         
         <li>
           <a
-            to="#about"
+            href="/#about"
             class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
@@ -106,7 +106,7 @@
         </li>
         <li>
           <a
-            to="#kompetenser"
+            href="/#kompetenser"
             class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
@@ -119,7 +119,7 @@
         </li>
         <li>
           <a
-            to="#projekt"
+            href="/#projekt"
             class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
@@ -131,8 +131,8 @@
           </a>
         </li>
         <li>
-            <a
-                to="#kontakt"
+            <router-link
+                to="/contact"
                 class="relative inline-block text-black 
              after:content-[''] after:absolute after:bottom-0 after:left-0 
              after:w-0 after:h-[2px] after:bg-sky-900 
@@ -141,7 +141,7 @@
                 active-class="active-link"
             >
                 Contact me<span class="text-sky-900 text-3xl">.</span>
-            </a>
+            </router-link>
         </li>
     </ul>
 

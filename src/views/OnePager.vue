@@ -3,16 +3,16 @@
       <!-- Navigationsmeny längst upp -->
       <Navigation />
       <div class="flex-grow">
-        <section class="mb-16">
+        <section class="mb-16" v-fade-in>
           <HeroTailwind />
         </section>
   
-        <section class="mb-16" id="about">
+        <section class="mb-16" id="about" v-fade-in>
           <About />
         </section>
         <div class="relative w-full">
             <div class="flex justify-start w-full absolute md:-top-30 -top-25 ">
-                <img src="../assets/Paper_plane.png" class="md:w-52 w-42 rotate-70 ms-40" alt="">
+                <img src="../assets/Paper_plane.png" class="md:w-52 w-42  z-50 rotate-70 ms-40" alt="">
             </div>
         </div>
         <div class="relative">
@@ -34,7 +34,7 @@
         </div>
   
         <!-- Kompetenser/Skills-komponenten -->
-        <section class="mb-16" id="kompetenser">
+        <section class="mb-16" id="kompetenser" v-fade-in>
           <Competencies />
         </section>
   
@@ -57,7 +57,6 @@
   <script>
   import Navigation from '@/components/Navigation.vue'
   import HeroTailwind from '@/components/HeroTailwind.vue'
-  import Home from '@/components/Home.vue'
   import Competencies from '@/components/Competencies.vue'
   import Projects from '@/components/Projects.vue'
   import About from '@/components/About.vue'
@@ -75,8 +74,16 @@
   }
   </script>
   
-  <style scoped>
+  <style>
+.fade-start {
+  opacity: 0;
+  transform: translateY(20px);
+}
 
-  /* Om du vill lägga till specifik styling för din showcase-sida */
+.fade-end {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
   </style>
   

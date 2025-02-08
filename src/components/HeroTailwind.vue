@@ -1,5 +1,5 @@
 <template>
-  <section class="relative w-full min-h-screen flex bg-white">
+  <section class="relative w-full md:min-h-screen h-130 flex bg-white">
     <div class="container mx-auto md:px-20 px-8 pt-12 md:pt-28">
       <p class="text-md text-sky-900 mb-2">Hi, my name is </p>
 
@@ -54,7 +54,7 @@
     <span class="h-92 border-l-1  border-sky-900 mb-4 "></span>
   </div>
   <div class="flex justify-center">
-    <img src="../assets/Paper_plane.png" class="md:w-68 w-48 -scale-100 rotate-240 absolute top-5/6 md:top-3/4" alt="">
+    <img src="../assets/Paper_plane.png" class="md:w-68 w-48 -scale-100 rotate-240 absolute z-50 top-5/6 md:top-3/4" alt="">
   </div>
 </template>
   

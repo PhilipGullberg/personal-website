@@ -1,6 +1,6 @@
 <template>
-    <section class="py-10 bg-white">
-      <div class="max-w-6xl mx-auto px-4">
+    <section class="py-10" v-fade-in>
+      <div class="max-w-6xl mx-auto px-4"  >
         <div class="text-center mb-12">
           <h2 class="text-4xl font-bold text-sky-900">
             A Selection of My Projects
@@ -17,11 +17,12 @@
             :key="project.id"
             class="flex flex-col md:flex-row items-center 
                    bg-gray-50 rounded-lg shadow-md overflow-hidden"
+                   v-fade-in
           >
             <div
               class="w-full md:w-1/2 p-8 order-2 md:order-1"
               :class="idx % 2 === 0 ? 'md:order-2' : 'md:order-3'"
-            >
+              >
               <h3 class="text-2xl font-semibold text-sky-900 mb-4">
                 {{ project.title }}
               </h3>
