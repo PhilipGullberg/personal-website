@@ -60,7 +60,7 @@
     </div>
       </ul>
       <div class="flex justify-between">
-        <a href=""> <img src="../assets/logo.png" class="w-10 md:hidden" alt=""></a>
+        <a href=""> <img src="../assets/icon_fin.png" class="w-10 md:hidden" alt=""></a>
       <div class="flex items-center md:hidden">
           <button
             type="button"
