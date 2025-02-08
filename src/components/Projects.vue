@@ -20,7 +20,7 @@
                    v-fade-in
           >
             <div
-              class="w-full md:w-1/2 p-8 order-2 md:order-1"
+              class="w-full md:w-1/2 md:p-8 p-4 order-2 md:order-1"
               :class="idx % 2 === 0 ? 'md:order-2' : 'md:order-3'"
               >
               <h3 class="text-2xl font-semibold text-sky-900 mb-4">

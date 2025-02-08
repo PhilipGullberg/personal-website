@@ -4,7 +4,7 @@ export default {
       el.classList.add('fade-start')
       const options = {
         root: null,
-        threshold: 0.2, 
+        threshold: 0.1, 
       }
   
       const observer = new IntersectionObserver((entries) => {

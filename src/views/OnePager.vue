@@ -18,7 +18,7 @@
         <div class="relative">
             <div
                 class="absolute bg-sky-900 rounded-full w-6 h-6 opacity-90 
-                    -top-20 md:left-48 -left-2"
+                    -top-20 md:left-48 -left-3"
             >
             </div>
             <div
@@ -71,6 +71,7 @@
       Projects,
       
     },
+    
   }
   </script>
   

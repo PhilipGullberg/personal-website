@@ -53,6 +53,7 @@
              hover:after:w-full after:transition-all after:duration-300 
              mr-4"
                 active-class="active-link"
+                @click.native="scrollToTop"
             >
                 Contact me<span class="text-sky-900 text-3xl">.</span>
             </router-link>
@@ -139,6 +140,7 @@
              hover:after:w-full after:transition-all after:duration-300 
              mr-4"
                 active-class="active-link"
+                @click.native="scrollToTop"
             >
                 Contact me<span class="text-sky-900 text-3xl">.</span>
             </router-link>
@@ -170,6 +172,10 @@
     toggleMenu() {
       this.isOpen = !this.isOpen
     },
+    scrollToTop() {
+        window.scrollTo(0,0);
+    },
+
     handleScroll() {
       // If scrolled down at all, set scrolled = true
       this.scrolled = window.scrollY > 0
