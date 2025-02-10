@@ -1,11 +1,11 @@
 <template>
-    <section class="py-10" v-fade-in>
-      <div class="max-w-6xl mx-auto px-4"  >
-        <div class="text-center mb-12">
-          <h2 class="text-4xl font-bold text-sky-900">
+    <section class="pt-12" >
+      <div class="max-w-6xl mx-auto px-4" >
+        <div class="text-center mb-12" v-fade-in>
+          <h2 class="text-4xl font-bold text-sky-900" >
             A Selection of My Projects
           </h2>
-          <p class="text-gray-600 mt-2  max-w-2xl mx-auto">
+          <p class="text-gray-600 mt-2  max-w-2xl mx-auto" >
             Below are some of the applications I’ve built, demonstrating my skills
             in modern web development and design. At the moment I am working mostly with a Vue3 frontend and a Flask backend. I also am experimenting and building loads of apps with AI apis, where openAI is my favorite.
           </p>
