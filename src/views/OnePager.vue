@@ -3,11 +3,11 @@
       <!-- Navigationsmeny längst upp -->
       <Navigation />
       <div class="flex-grow">
-        <section class="mb-16" v-fade-in>
+        <section class="py-12" v-fade-in>
           <HeroTailwind />
         </section>
   
-        <section class="mb-16" id="about" v-fade-in>
+        <section class="py-12" id="about" v-fade-in>
           <About />
         </section>
         <div class="relative w-full">
@@ -34,12 +34,12 @@
         </div>
   
         <!-- Kompetenser/Skills-komponenten -->
-        <section class="mb-16" id="kompetenser" v-fade-in>
+        <section class="py-12" id="kompetenser" v-fade-in>
           <Competencies />
         </section>
   
         <!-- Projekt-komponenten -->
-        <section class="mb-16" id="projekt">
+        <section class="py-12" id="projekt">
           <Projects />
         </section>
   

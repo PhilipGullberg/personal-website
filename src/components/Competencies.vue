@@ -20,7 +20,7 @@
         >
          <!-- AI -->
          <div class="flex flex-col items-center text-center space-y-2 hover:scale-105 transition-transform">
-            <i class="fa-brands fa-html5 text-4xl text-sky-900"></i>
+            <i class="fa-solid fa-robot text-3xl text-sky-900"></i>
             <span class="text-gray-700 text-sm font-medium">AI</span>
           </div>
           <!-- HTML5 -->

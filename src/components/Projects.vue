@@ -129,7 +129,7 @@
             imageUrl: '/janne-website.png',
             liveLink: 'https://janneandersson.com',
             // caseStudyLink: '#',    // optional
-            githubLink: 'https://github.com/PhilipGullberg',
+            githubLink: 'https://github.com/PhilipGullberg/janne-andersson-hemsida',
             techStack: [
               { name: 'Vue3.js', icon: 'fa-brands fa-vuejs' },
               { name: 'Tailwind', icon: 'fa-brands fa-css3' },
@@ -169,7 +169,7 @@
             description:
               'A website where teachers can access courses and share them with students. Focus on easy to use and having full insight of students work. Tracking pages read and time spent on each page. What excercies the students have completed and what areas the class are having trouble with.',
             imageUrl: '/Proggamera_Landing_page.png',
-            githubLink: 'https://github.com/PhilipGullberg/Ulrikashemsida',
+            githubLink: 'https://github.com/PhilipGullberg/Django-proggamera',
             techStack: [
               { name: 'Django', icon: 'fa-brands fa-python' },
               { name: 'Bootstrap', icon: 'fa-brands fa-bootstrap' },

@@ -28,8 +28,9 @@
               passionate about bringing both the technical and educational aspects 
               of code to life. I’ve honed my skills in <span class="font-semibold">high-level programming</span> and problem-solving
               with an education from <span class="text-sky-700">KTH</span> where i have a degree as a <span class="underline">Civil engineer in computer science.</span>
+              I have recently also added 15 credits in <span class="text-sky-700">AI</span> from KTH.
             </p>
-            <p class="mb-4 text-md md:text-lgleading-relaxed">
+            <p class="mb-4 text-md md:text-lg leading-relaxed">
               My goal is always to break down complex concepts into easy, relatable 
               tasks, and then executing them step by step in an ordered manner.
             </p>

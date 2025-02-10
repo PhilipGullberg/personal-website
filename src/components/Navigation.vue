@@ -3,9 +3,9 @@
       ? 'bg-white border-b border-gray-200 shadow-sm transition-colors duration-200' 
       : 'bg-transparent border-none transition-colors duration-200'">
       <ul class="hidden md:flex justify-between items-center space-x-6 px-6">
-        <img src="../assets/icon_fin.png" class="w-16 " alt="">
-        <div class="flex space-x-10">
-        <li>
+        <img src="../assets/icon_fin.png" class="w-14 " alt="">
+        <div class="flex space-x-10 ">
+        <li class="self-center">
           <a
             href="/#about"
             class="relative inline-block text-black 
@@ -15,7 +15,7 @@
              mr-4 "
             active-class="active-link"
           >
-            About <span class="text-sky-900 text-3xl">.</span>
+            About <span class="text-sky-900 text-2xl">.</span>
           </a>
         </li>
         <li>
@@ -28,7 +28,7 @@
              mr-4"
             active-class="active-link"
           >
-            Skills & Tools <span class="text-sky-900 text-3xl">.</span>
+            Skills & Tools <span class="text-sky-900 text-2xl">.</span>
           </a>
         </li>
         <li>
@@ -41,7 +41,7 @@
              mr-4"
             active-class="active-link"
           >
-            Projects <span class="text-sky-900 text-3xl">.</span>
+            Projects <span class="text-sky-900 text-2xl">.</span>
           </a>
         </li>
         <li>
@@ -55,7 +55,7 @@
                 active-class="active-link"
                 @click.native="scrollToTop"
             >
-                Contact me<span class="text-sky-900 text-3xl">.</span>
+                Contact me<span class="text-sky-900 text-2xl">.</span>
             </router-link>
         </li>
     </div>
@@ -102,7 +102,7 @@
              mr-4"
             active-class="active-link"
           >
-            About <span class="text-sky-900 text-3xl">.</span>
+            About <span class="text-sky-900 text-2xl">.</span>
           </a>
         </li>
         <li>
@@ -115,7 +115,7 @@
              mr-4"
             active-class="active-link"
           >
-          Skills & Tools <span class="text-sky-900 text-3xl">.</span>
+          Skills & Tools <span class="text-sky-900 text-2xl">.</span>
           </a>
         </li>
         <li>
@@ -128,7 +128,7 @@
              mr-4"
             active-class="active-link"
           >
-            Projects <span class="text-sky-900 text-3xl">.</span>
+            Projects <span class="text-sky-900 text-2xl">.</span>
           </a>
         </li>
         <li>
@@ -142,7 +142,7 @@
                 active-class="active-link"
                 @click.native="scrollToTop"
             >
-                Contact me<span class="text-sky-900 text-3xl">.</span>
+                Contact me<span class="text-sky-900 text-2xl">.</span>
             </router-link>
         </li>
     </ul>
