@@ -1,5 +1,5 @@
 <template>
-    <section class=" bg-white" id="about">
+    <section class=" bg-white pt-4" id="about">
       <div class="max-w-5xl mx-auto px-4 md:px-10">
         <!-- Section Label / Heading -->
         <p class="text-sm font-semibold tracking-wide text-sky-900 uppercase">
