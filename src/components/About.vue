@@ -27,15 +27,15 @@
               <span class="font-semibold">educator</span> based in Sweden, 
               passionate about bringing both the technical and educational aspects 
               of code to life. I’ve honed my skills in <span class="font-semibold">high-level programming</span> and problem-solving
-              with an education from <span class="text-sky-700">KTH</span> where i have a degree as a <span class="underline">Civil engineer in computer science.</span>
-              I have recently also added 15 credits in <span class="text-sky-700">AI</span> from KTH.
+              with an education from <span class="">KTH</span> where i have a degree as a <span class="underline">Civil engineer in computer science.</span>
+              I have recently also added 15 credits in <span class="">AI</span> from KTH.
             </p>
             <p class="mb-4 text-md md:text-lg leading-relaxed">
               My goal is always to break down complex concepts into easy, relatable 
               tasks, and then executing them step by step in an ordered manner.
             </p>
             <p class="mb-4 text-md md:text-lg leading-relaxed">
-                I now specialize in building robust, efficient, and user-friendly solutions as a <span class="text-sky-700">web developer</span>. Beyond traditional development, I serve as a <span class="text-sky-700">technical developer</span> for all 25 <span class="text-sky-700">NTI schools</span> in <span class="text-sky-700">AI</span>. This role combines my passion for cutting-edge technology with education, as I design and implement AI-based tools and platforms that enhance both teaching and learning experiences.
+                I now specialize in building robust, efficient, and user-friendly solutions as a <span class="">web developer</span>. Beyond traditional development, I serve as a <span class="">technical developer</span> for all 25 <span class="">NTI schools</span> in <span class="">AI</span>. This role combines my passion for cutting-edge technology with education, as I design and implement AI-based tools and platforms that enhance both teaching and learning experiences.
             </p> 
             <p class="text-md md:text-lg leading-relaxed">
               Outside of coding and teaching, you’ll likely find me exploring new 
