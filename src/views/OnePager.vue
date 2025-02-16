@@ -37,13 +37,17 @@
         <section class="py-12" id="kompetenser" v-fade-in>
           <Competencies />
         </section>
+
+  
   
         <!-- Projekt-komponenten -->
         <section class="py-12" id="projekt">
           <Projects />
         </section>
-  
-        <!-- Om Mig-komponenten -->
+
+        <section class="py-12" id="howiwork">
+          <HowIWork />
+        </section>
        
       </div>
   
@@ -60,6 +64,7 @@
   import Competencies from '@/components/Competencies.vue'
   import Projects from '@/components/Projects.vue'
   import About from '@/components/About.vue'
+  import HowIWork from '@/components/HowIWork.vue'
   
   export default {
     name: 'Showcase',
@@ -69,6 +74,7 @@
       About,
       Competencies,
       Projects,
+      HowIWork,
       
     },
     

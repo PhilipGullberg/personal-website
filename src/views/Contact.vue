@@ -14,20 +14,19 @@
 </section>
     <section class="min-h-screen flex flex-col items-center mt-2 bg-white">
       <div class="max-w-xl w-full mx-auto px-4 py-2 shadow-lg rounded-lg bg-white">
-        <!-- Heading -->
         <h1 class="text-3xl font-bold text-sky-900 mb-6 text-center">Contact me</h1>
   
-        <!-- Description (optional) -->
         <p class="text-gray-600 mb-8 text-center">
           If you have a question or just want to say hi, feel free to send me a message. I'll get back to you as soon as possible.
         </p>
   
         <!-- Contact Form -->
-        <form @submit.prevent="handleSubmit">
+        <form @submit="handleSubmit" method="POST" action="https://formsubmit.co/philip_gullberg@hotmail.com">
+          <input type="hidden" name="_captcha" value="false">
           <!-- Name Field -->
           <div class="mb-4">
             <label for="name" class="block text-gray-700 font-medium mb-2">
-              
+              Name
             </label>
             <input
               type="text"
@@ -75,13 +74,33 @@
           <!-- Submit Button -->
           <div class="text-center">
             <button
-              type="submit"
-              class="inline-block bg-sky-900 text-white px-6 py-2 rounded-md font-medium 
-                     hover:bg-sky-800 transition-colors duration-300 focus:outline-none
-                     focus:ring-2 focus:ring-sky-900 focus:ring-offset-2"
+            type="submit"
+            class="w-full bg-[#124E66] text-white py-3 font-semibold rounded-lg hover:bg-[#0f3d52] transition flex items-center justify-center"
+            :disabled="isLoading"
+          >
+            <span v-if="!isLoading">Send form</span>
+            <svg
+              v-else
+              class="animate-spin h-5 w-5 text-white ml-2"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Skicka
-            </button>
+              <circle
+                class="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="4"
+              ></circle>
+              <path
+                class="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+              ></path>
+            </svg>
+          </button>
           </div>
         </form>
   
@@ -105,6 +124,7 @@ import Navigation from '@/components/Navigation.vue'
     },
     data() {
       return {
+        isLoading: false,
         form: {
           name: '',
           email: '',
@@ -116,18 +136,7 @@ import Navigation from '@/components/Navigation.vue'
     },
     methods: {
       handleSubmit() {
-        console.log('Form Submitted:', this.form)
-        this.successMessage = ''
-        this.errorMessage = ''
-  
-        try {
-          this.successMessage = 'Tack för ditt meddelande! Jag återkommer snart.'
-          this.form.name = ''
-          this.form.email = ''
-          this.form.message = ''
-        } catch (err) {
-          this.errorMessage = 'Något gick fel. Vänligen försök igen senare.'
-        }
+        this.isLoading = true; 
       },
     },
   }
