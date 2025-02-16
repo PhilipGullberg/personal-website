@@ -31,6 +31,7 @@
             <input
               type="text"
               id="name"
+              name="name"
               v-model="form.name"
               class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none 
                      focus:ring-2 focus:ring-sky-900 focus:border-transparent"
@@ -47,6 +48,7 @@
             <input
               type="email"
               id="email"
+              name="email"
               v-model="form.email"
               class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none 
                      focus:ring-2 focus:ring-sky-900 focus:border-transparent"
@@ -63,6 +65,7 @@
             <textarea
               id="message"
               v-model="form.message"
+              name="message"
               rows="4"
               class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none 
                      focus:ring-2 focus:ring-sky-900 focus:border-transparent resize-none"
