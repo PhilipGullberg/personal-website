@@ -5,7 +5,7 @@
     >
       <!-- Header area -->
       <div class="mx-auto max-w-3xl text-center">
-        <h2 class="text-3xl text-sky-900 font-extrabold tracking-tight mb-4">
+        <h2 class="text-4xl text-sky-900 font-extrabold tracking-tight mb-4">
           How I Work
         </h2>
         <p class="mb-10 text-lg text-gray-600">
