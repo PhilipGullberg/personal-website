@@ -21,7 +21,7 @@
         </p>
   
         <!-- Contact Form -->
-        <form @submit="handleSubmit" method="POST" action="https://formsubmit.co/philip_gullberg@hotmail.com">
+        <form @submit="handleSubmit" method="POST" action="https://formspree.io/f/mqaeyrgq">
           <input type="hidden" name="_captcha" value="false">
           <!-- Name Field -->
           <div class="mb-4">
