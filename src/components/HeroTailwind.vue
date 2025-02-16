@@ -18,7 +18,7 @@
       </p>
 
       <a
-        href="#"
+        href="#projekt"
         class="inline-block bg-sky-800 hover:bg-sky-900 text-white font-semibold px-6 py-3 rounded-md shadow-md transition-colors duration-300"
       >
         Check out my work!

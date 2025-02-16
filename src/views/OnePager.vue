@@ -32,6 +32,30 @@
             >
             </div>
         </div>
+        
+        <section class="pt-12" id="banner" v-fade-in>
+          <div 
+    class="bg-gradient-to-r from-sky-800 to-sky-900 text-white py-10 px-6 shadow flex flex-col sm:flex-row items-center justify-around"
+  >
+    <!-- Text Content -->
+    <div class="mb-4 sm:mb-0 sm:mr-6 max-w-lg">
+      <h2 class="text-2xl font-bold mb-2">
+        Ready to Take Your Website to the Next Level?
+      </h2>
+      <p class="text-base">
+        Let's collaborate on your next big project. Get in touch for a free consultation and personalized quote.
+      </p>
+    </div>
+
+    <!-- CTA Button -->
+    <router-link
+      to="/contact"
+      class="inline-block bg-white text-black font-semibold py-2 px-4 rounded shadow-md hover:bg-blue-50 transition"
+    >
+      Contact Me <i class="fa-solid fa-arrow-right ms-2"></i>
+    </router-link>
+  </div>
+        </section>
   
         <!-- Kompetenser/Skills-komponenten -->
         <section class="py-12" id="kompetenser" v-fade-in>
