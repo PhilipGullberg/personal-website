@@ -3,7 +3,6 @@
       class="bg-white py-16 px-4 sm:px-6 lg:px-8 text-gray-800"
       v-fade-in
     >
-      <!-- Header area -->
       <div class="mx-auto max-w-3xl text-center">
         <h2 class="text-4xl text-sky-900 font-extrabold tracking-tight mb-4">
           How I Work
@@ -14,10 +13,8 @@
           proven step-by-step process.
         </p>
       </div>
-  
-      <!-- Process Steps in a Card/Grid Layout -->
+  '
       <div class="max-w-5xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <!-- Step 1 -->
         <div class="shadow-sm border border-gray-200 rounded-lg p-6 flex flex-col">
           <h3 class="text-xl font-semibold mb-2 text-gray-800">
             1. Plan
@@ -28,8 +25,7 @@
             for your project.
           </p>
         </div>
-  
-        <!-- Step 2 -->
+
         <div class="shadow-sm border border-gray-200 rounded-lg p-6 flex flex-col">
           <h3 class="text-xl font-semibold mb-2 text-gray-800">
             2. Design
@@ -41,7 +37,6 @@
           </p>
         </div>
   
-        <!-- Step 3 -->
         <div class="shadow-sm border border-gray-200 rounded-lg p-6 flex flex-col">
           <h3 class="text-xl font-semibold mb-2 text-gray-800">
             3. Develop
@@ -53,7 +48,6 @@
           </p>
         </div>
   
-        <!-- Step 4 -->
         <div class="shadow-sm border border-gray-200 rounded-lg p-6 flex flex-col">
           <h3 class="text-xl font-semibold mb-2 text-gray-800">
             4. Test & Refine
@@ -64,7 +58,6 @@
           </p>
         </div>
   
-        <!-- Step 5 -->
         <div class="shadow-sm border border-gray-200 rounded-lg p-6 flex flex-col">
           <h3 class="text-xl font-semibold mb-2 text-gray-800">
             5. Launch
@@ -74,8 +67,7 @@
             with hosting, domain setup, and ongoing maintenance.
           </p>
         </div>
-  
-        <!-- Step 6 -->
+
         <div class="shadow-sm border border-gray-200 rounded-lg p-6 flex flex-col">
           <h3 class="text-xl font-semibold mb-2 text-gray-800">
             6. Support
@@ -87,7 +79,6 @@
         </div>
       </div>
   
-      <!-- Services offered -->
       <div class="max-w-3xl mx-auto mt-16 text-center">
         <h3 class="text-2xl font-semibold mb-4">
           Services I Offer
@@ -102,7 +93,6 @@
         </ul>
       </div>
   
-      <!-- CTA -->
       <div class="mt-10 text-center">
         <p class="text-lg text-gray-700">
           Ready to get started?
