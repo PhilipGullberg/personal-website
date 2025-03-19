@@ -21,8 +21,8 @@
         </p>
   
         <!-- Contact Form -->
-        <form @submit="handleSubmit" method="POST" action="https://formsubmit.co/philip_gullberg@hotmail.com">
-          <input type="hidden" name="_captcha" value="false">
+        <form @submit="handleSubmit" method="POST" action="https://api.web3forms.com/submit">
+          <input type="hidden" name="access_key" value="a274ae47-cae4-4fbf-bb60-747cf431ed3e">
           <!-- Name Field -->
           <div class="mb-4">
             <label for="name" class="block text-gray-700 font-medium mb-2">
